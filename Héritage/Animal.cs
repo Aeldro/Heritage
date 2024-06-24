@@ -24,5 +24,10 @@ namespace Héritage
         {
             Console.WriteLine("Nom nom nom...");
         }
+
+        public int GetLegsCount()
+        {
+            return this._legsCount;
+        }
     }
 }

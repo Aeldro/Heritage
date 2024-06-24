@@ -26,8 +26,8 @@
             quadrupeds[2].Move();
             quadrupeds[2].Eat();
 
-
-
+            Console.WriteLine(bipeds[0].GetLegsCount());
+            Console.WriteLine(quadrupeds[0].GetLegsCount());
         }
     }
 }
